@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML & CSS | Nathan Martin-Obst</title>
-    <link href="./resources/styles.css" rel="stylesheet" />
+    <link href="./skills.css" rel="stylesheet" />
   </head>
   <body>
     <header>
