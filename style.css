@@ -1,9 +1,10 @@
 body {
   background-color: lightsteelblue;
-  background-image: url("../resources/main.png");
+  background-image: url("./resources/main.png");
   text-align: center;
   font-family: Verdana;
   color: darkslateblue;
+  width: 100%;
 }
 
 ul {
