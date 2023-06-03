@@ -1,7 +1,9 @@
 body {
-  background-color: LightGray;
+  background-color: lightsteelblue;
+  background-image: url("./resources/main.png");
   text-align: center;
   font-family: Verdana;
+  color: darkseagreen;
 }
 
 ul {
