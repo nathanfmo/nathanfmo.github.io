@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Notetaking Survey</title>
+    <link rel="stylesheet" href="notetaking.css" />
+  </head>
+  <body>
+    <h1 id="title">Notetaking Survey</h1>
+    <p id="description">Assessing what you do now, to improve this site's future</p>
+    <form id="survey-form" method="post" action="">
+      <fieldset>
+        <label id="name-label">Name: <input id="name" type="text" placeholder="First Name" required /></label>
+        <label id="email-label">Email: <input id="email" type="email" placeholder="you@email.com" required /></label>
+        <label id="number-label">Number of years you've spent notetaking: <input id="number" type="number" min="1" max="100" placeholder="1-100" required /></label>
+      </fieldset>
+      <fieldset>
+        What do you use notetaking for?
+        <label><input value="academic" type="checkbox" /> Academic</label>
+        <label><input value="professional" type="checkbox" /> Professional</label>
+        <label><input value="personal" type="checkbox" /> Personal</label>
+        Do you prefer digital or physical notetaking?
+        <label><input type="radio" name="format" value="digital" /> Digital</label>
+        <label><input type="radio" name="format" value="physical" /> Physical</label>
+        <label><input type="radio" name="format" value="either" /> No preference</label>
+      </fieldset>
+      <fieldset>
+        <label>Is there a standardized system you use? 
+          <select id="dropdown" required>
+            <option value="0">(select one)</option>
+            <option value="cornell">Cornell Method</option>
+            <option value="outline">Outline Method</option>
+            <option value="mapping">Mapping Method</option>
+            <option value="charting">Charting Method</option>
+            <option value="sentence">Sentence Method</option>
+            <option sentence="other">Other</option>
+          </select>
+        </label>
+        <label>Describe your notetaking system: <textarea placeholder="I start by..." rows="5" cols="45"></textarea></label>
+        <label>Add an example of your notetaking: <input type="file" required /></label>
+      </fieldset>
+      <fieldset>
+        <label>Any pen, notebook, or other tool recommendations? <textarea placeholder="I recommend..." rows="5" cols="45"></textarea></label>
+        <input id="submit" type="submit" value="Submit">
+      </fieldset>
+    </form>
+  </body>
+</html>
