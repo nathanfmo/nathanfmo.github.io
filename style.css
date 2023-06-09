@@ -1,10 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: lightsteelblue;
   background-image: url("./resources/main.png");
+  background-size: cover;
   text-align: center;
   font-family: Verdana;
   color: darkslateblue;
   width: 100%;
+}
+
+.wood {
+  background-color: burlywood;
+  border: sienna solid 3px;
+  border-radius: 6px;
+  margin: 10px auto;
+  width: 30%;
 }
 
 ul {
