@@ -11,6 +11,7 @@ header {
 
 #left {
   width: 50%;
+  justify-content: flex-start;
 }
 
 #left img {
@@ -19,4 +20,5 @@ header {
 
 #right {
   width: 50%;
+  justify-content: flex-end;
 }
